@@ -16,7 +16,7 @@ class FirstController extends AbstractController {
      */
     public function number()    {
         $number = rand(12,100);
-        return $this->render('number.html.twig', [
+        return $this->render('first/number.html.twig', [
             'number' => $number,
         ]);
     }
