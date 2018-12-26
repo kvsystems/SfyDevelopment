@@ -1,6 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-#app_first_number:
-#    path: /first/number
-#    controller: App\Controller\FirstController::number
+app_first_number:
+    path: /first/number
+    controller: App\Controller\FirstController::number
